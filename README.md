@@ -1,4 +1,5 @@
 ﻿# Ecommerce-ApiGateway
+<<<<<<< HEAD
 
 Spring Cloud Gateway, OAuth2, rate limiting, circuit breaker
 
@@ -15,3 +16,5 @@ mvn spring-boot:run
 
 ## CI
 GitHub Actions workflow runs on pushes + PRs to master and develop.
+=======
+>>>>>>> 34c133512a4359ae9ca53c68dd78cf2cf362349a
