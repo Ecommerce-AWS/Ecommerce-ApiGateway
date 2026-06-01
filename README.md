@@ -1,4 +1,4 @@
-﻿# Ecommerce-ApiGateway
+# Ecommerce-ApiGateway
 
 Spring Cloud Gateway, OAuth2, rate limiting, circuit breaker
 

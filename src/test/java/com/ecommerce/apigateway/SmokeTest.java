@@ -1,4 +1,4 @@
-﻿package com.ecommerce.apigateway;
+package com.ecommerce.apigateway;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
