@@ -14,19 +14,5 @@ pipeline {
     stage('Static Check') {
       steps { sh 'echo SonarQube or static scan goes here' }
     }
-    stage('Docker Build') {
-      when {
-        anyOf {
-          branch 'develop'
-          branch 'master'
-          expression { env.BRANCH_NAME?.startsWith("feature/") }
-          expression { env.BRANCH_NAME?.startsWith("release/") }
-          expression { env.BRANCH_NAME?.startsWith("hotfix/") }
-        }
-      }
-      steps {
-        sh 'echo Docker build and push goes here'
-      }
-    }
   }
 }
